@@ -3,7 +3,15 @@ $(document).ready(function(){
         $('#popUpMain').css('display','block')
 
 
-    },12000);
+	},10000);
+
+	var typed = new Typed('#typing', {
+		strings: [" Technocolabs is non-profit organization which is followed by technical experts for enthusiastic learners","Artificial intelligence machine learning have great way to develop.","Technical Colabs is a leading tech Startups with learn something new and innovative ideas..."],
+		loop: true,
+		typeSpeed: 15,
+		backSpeed: 40,
+		backDelay:500
+	  });
 
 });
 $('.submitId').click(function(){
@@ -13,8 +21,8 @@ $('.submitId').click(function(){
 });
 
 $('#submitModal1').click(function(){
-    $('#submitModal').css('display','hide');
-    swal("Good job!", "Thsnk you for Contacting with Us!", "success");
+  
+    swal("Your message has been successfully sent!", "We appreciaate you contacting us and we'll be in touch soon", "success");
     
 
 });
@@ -29,3 +37,4 @@ $('#submitModal1').click(function(){
 		function myFunction(){
 			preloader.style.display = 'none';
 		};
+
