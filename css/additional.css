@@ -1163,7 +1163,7 @@ section.lazy-placeholder:after {
 }
 .cid-qTkzRZLJNu .navbar {
   padding: .5rem 0;
-  background: #073b4c;
+  background:#073b4c;
   transition: none;
   min-height: 77px;
 }
@@ -2077,7 +2077,7 @@ section.lazy-placeholder:after {
   color: #767676;
 }
 .cid-rQYdblLow1 .mbr-testimonial .panel-item {
-  background-color: #ffffff;
+  background-color: azure;
 }
 .cid-rQYdblLow1 .mbr-testimonial .card-block {
   -webkit-flex-grow: 0;

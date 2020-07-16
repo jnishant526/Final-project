@@ -112,7 +112,9 @@ textarea[type='hidden'] {
   display: none; }
 
 body {
-  position: relative; }
+  position: relative; 
+  
+ }
 
 section {
   background-position: 50% 50%;
@@ -542,7 +544,7 @@ blockquote {
 /*! Arrow Down */
 .mbr-arrow {
   position: absolute;
-  bottom: 45px;
+  bottom: 152px;
   left: 50%;
   width: 60px;
   height: 60px;
