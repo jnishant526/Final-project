@@ -95,5 +95,11 @@
         height: 50px;
         width: 100px;
     }
+    .carousel-caption .text{
+        font-size: 20px;
+        font-weight: 800;
+        color:blue;
+        
+    }
 
 }
