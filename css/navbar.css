@@ -67,7 +67,7 @@
     opacity: 1;
 }
 #promo{
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('images/background5.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('/images/background6.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -90,6 +90,10 @@
         font-size: 12px;
         font-weight: 100;
         color: blue;
+    }
+    .carousel-caption img{
+        height: 50px;
+        width: 100px;
     }
 
 }
