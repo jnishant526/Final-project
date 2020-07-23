@@ -20,7 +20,8 @@
 </head>
 
 
-<body>
+<body onload="myFunction()">
+    <div id="loading"></div>
 
     <!-----<div id="popUpMain" style="display: none;">
         <div id="popup">
@@ -81,11 +82,11 @@
                 <div class="carousel-item active">
                     <img src="images/—Pngtree—technology business line atmosphere_931814.jpg" class="d-block img-fluid" style="height: 620px;" alt="...">
                     <div class="carousel-caption text-responsive" id="home">
-                        <h2 style="font-size:35px; "> 
+                        <h2> 
                             Technocolabs
                         </h2>
 
-                        <p><span class="typing" style="font-weight:500; font-size:20px">
+                        <p><span class="typing">
                            </span>
                         </p>
                     </div>
@@ -135,6 +136,19 @@
     },1000);
 });
 
+    </script>
+     <script>
+        // $(document).ready(function(){
+        // 	$('div#loading').removeAttr('id');
+    // });
+    var preloader = document.getElementById("loading");
+    // window.addEventListener('load', function(){
+    // 	preloader.style.display = 'none';
+    // 	})
+
+    function myFunction(){
+  preloader.style.display = 'none';
+};
     </script>
 </js>
 </body>
