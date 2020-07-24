@@ -55,13 +55,13 @@
 .carousel-caption h2{
     font-size: 90px;
     font-weight: 900;
-    color: purpule;
+    color: blue;
     
 }
 .carousel-caption p{
     font-size: 20px;
     font-weight: 100;
-    color: purpule;
+    color: blue;
 }
 .carousel-item img{
     opacity: 1;
