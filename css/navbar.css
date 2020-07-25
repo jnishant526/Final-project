@@ -23,7 +23,7 @@
 #nav-bar ul li a:hover{
     font-size: 17px;
     color: #007bff!important;
-    text-shadow: 0 50px 50px darkblue;
+    text-shadow: 0 10px 20px darkblue;
     transition: ease-in-out 0.2s;
 }
 .navbar{
