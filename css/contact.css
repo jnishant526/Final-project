@@ -35,34 +35,37 @@
 }
 
 .fa-facebook-square{
-    color: #3b5999;
+    color:gray;
 }
 
 .fa-twitter-square{
-    color: #55acee;
+    color: gray;
 
 }
 
 .fa-instagram{
-    color: #e6683c;
+    color: gray;
 }
 
-.fa-google-plus-square{
-    color:#dd4b39;
+.fa-linkedin{
+    color: gray;
 }
 
 .fa-facebook-square:hover,
 .fa-twitter-square:hover,
 .fa-instagram:hover,
-.fa-google-plus-square:hover{
-    color: #45e19f;
+.fa-linkedin:hover{
+    color: #fff;
 }
 
 .contact-info .fa{
     margin: 10px;
-    color: #007bff;
+    color: black;
 }
 
-.contact-info .fa:hover{
-    color: powderblue;
+
+.file{
+    color: cornsilk;
+    font-weight: 400;
+    padding-left: 5px;
 }
